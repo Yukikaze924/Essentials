@@ -1,0 +1,19 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | GENERAL SETTINGS                         |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+general:
+
+  # There are 3 methods to store data, which are mysql, sqlite, yaml
+  data_storage: mysql
+
+  # Fill the command down below depends on your server's shop plugin. This is made for EconomyShopGUI
+  shop_command:
+    market: shop
+    pawnshop: sellgui
+
+Mysql:
+  database: cat_mc
+  port: 3307
+  url: localhost
+  user: root
+  password:

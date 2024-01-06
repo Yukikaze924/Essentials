@@ -1,0 +1,42 @@
+name: Essentials
+version: '${project.version}'
+main: com.yukikaze.essentials.Essentials
+api-version: '1.13'
+commands:
+  id:
+    description: Everything about yourself
+    usage: /<command>
+    aliases:
+      - identification
+      - identity
+
+  treat:
+    description: Cause one First-Aid to cure yourself
+    usage: /<command>
+    aliases:
+      - cure
+
+  me:
+    description: Open a GUI page that shows your personal information
+    usage: /<command>
+    aliases:
+      - my
+      - m
+      - i
+
+  email:
+    description: Send someone a email
+    usage: /<command> <player> <content>
+    aliases:
+      - mail
+
+  send:
+    description: Send someone a message
+    usage: /<command> <player> <message>
+    aliases:
+      - s
+
+  print:
+    description: Print a image from Internet
+    usage: /<command> <link>
+
